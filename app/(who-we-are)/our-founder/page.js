@@ -1,5 +1,5 @@
 import OurFounder from '@/app/_components/OurFounder/OurFounder';
-
+import React from 'react'
 export const metadata = {
   title: "Drug Safety Services | End-to-End Pharmacovigilance & Regulatory Compliance",
   description:
@@ -35,14 +35,12 @@ export const metadata = {
   },
 };
 
-
-function page() {
-  
-  
-return (
-
-    <OurFounder /> 
-  );
+const page = () => {
+  return (
+    <div>
+      <OurFounder />
+    </div>
+  )
 }
 
-export default page;
+export default page
