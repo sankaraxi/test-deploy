@@ -1,5 +1,4 @@
 
-import "./Founder.css";
 import OurFounder from '@/app/_components/OurFounder/OurFounder';
 
 export const metadata = {
@@ -28,14 +27,14 @@ export const metadata = {
       "Dr J Vijay Venkatraman, a globally recognized pharmacovigilance leader, is committed to advancing drug safety and regulatory compliance worldwide.",
     url: "https://www.oviyamedsafe.com/our-founder",
     type: "website",
-    images: [
-      {
-        url: "https://www.oviyamedsafe.com/mainlogo.png",
-        width: 1200,
-        height: 630,
-        alt: "Oviya MedSafe Logo",
-      },
-    ],
+    // images: [
+    //   {
+    //     url: "https://www.oviyamedsafe.com/LOGO.png",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Oviya MedSafe Logo",
+    //   },
+    // ],
   },
 };
 
