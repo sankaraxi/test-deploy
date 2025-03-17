@@ -1,0 +1,165 @@
+
+.abtparts{
+    background-image: url("/hexbanner.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.whytx{
+    color: var(--subhead2-color);
+}
+.ovtxt{
+    color: var(--subhead2-color);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif
+}
+
+.researchimg{
+    height: 400px;
+}
+.about1img{
+height: 300px;
+}
+.whytxt{
+    font-size: 85px !important;
+    color: var(--subhead2-color);
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif !important;
+}
+.oviyaheading{
+    font-size: 65px !important;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.medsafe{
+    font-size: 35px;
+    font-weight: 600;
+}
+.medsafepara{
+    font-size: 16px;
+    line-height: 3rem;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+}
+.boardpart{
+    background: linear-gradient(to right,#17BE81,#09BBCC);
+}
+.boardcardposition{
+    font-size: 14px;
+    color: var(--color-testimonial);
+}
+
+.boardcard {
+    font-family: 'Barlow', sans-serif;
+    border: 0px;      
+}
+
+.linkedicon{
+    color: #0A66C2;
+}
+
+
+.memberbio{
+    color: #0D868F !important;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.boardcardtitle{
+font-size: 22px;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+}
+
+@media (min-width:426px) and (max-width:1025px){
+    .boardcard{
+        height: 450px;
+    }
+    
+    .whytxt {
+        font-size: 30px;
+        color: var(--subhead2-color);
+    }
+    .researchimg{
+        max-width: 300px;
+        max-height: 250px;
+        margin: 10px;
+    }    
+}
+.about1img{
+    height: 360px;
+}
+@media (max-width:500px){
+    .researchimg{
+        max-width: 300px;
+        max-height: 250px;
+        margin: 10px;
+    } 
+    .about1img{
+        max-width: 320px;
+        max-height: 250px;
+    } 
+    .ovtxt{
+        color: var(--subhead2-color);
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .whytxt{
+        font-size: 55px;
+  }
+  .whytx{
+    font-size: 35px;
+  }
+  .subhead5{
+    color: var(--subhead2-color);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2px;
+      text-align: center;
+      font-weight: 400;
+    }
+     
+}
+@media (min-width:501px) and (max-width:820px){
+    .about1img{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 10px;
+    }
+    .researchimg{
+        max-width: 290px;
+        max-height: 250px;
+        margin: 10px;
+    }
+    .subhead5{
+        font-size: 45px !important;
+    }
+    
+   
+}
+  
+
+.textjust {
+    text-align: justify;
+    hyphens: auto;
+    word-wrap: break-word;
+    line-height: 1.5;
+    word-spacing: 0.02em;
+  }
+   
+
+  .subhead5{
+    color: var(--subhead2-color);
+    font-family: 'Oswald', sans-serif;
+    font-size: 57px;
+      text-align: center;
+      font-weight: 400;
+    }
+
+@media (max-width:568px){
+    .subhead5{
+        font-size: 37px !important;
+    }
+    
+}

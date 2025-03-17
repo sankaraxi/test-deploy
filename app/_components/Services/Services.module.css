@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+.overall-pad {
+    padding: 144px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.accordion-container {
+    width: 708px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-text {
+    font-family: 'Heebo', sans-serif;
+}
+
+.img-size {
+    max-width: 419px;
+    max-height: 419px;
+  }
+
+.accordion-pad{
+    padding-top: 5px;
+}
+
+.heading-text{
+    font-size: 28px;
+}
+
+@media (max-width: 992px) {
+    .other-pad{
+        padding: 50px;
+    }
+
+    .accordion-container {
+        width: 600px; /* Adjust the width for tablets */
+    }
+
+    .img-size {
+    max-width: 400px;
+    max-height: 300px;
+    }
+
+    .accordion-pad{
+        padding-top: 0;
+    }
+
+    .heading-text{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* This media query targets screens smaller than 576px */
+    .other-pad  {
+      padding: 25px;
+    }
+
+    .accordion-container {
+        width: 100%;
+    }
+
+    .img-size {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .accordion-pad{
+        padding-top: 0;
+    }
+
+    .heading-text{
+        font-size: 23px;
+    }
+
+    .acc-text-pad {
+        padding-left: 25px;
+      }
+
+}
+@media (min-width:769px) and (max-width:1025px){
+    .img-size {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+   
+}

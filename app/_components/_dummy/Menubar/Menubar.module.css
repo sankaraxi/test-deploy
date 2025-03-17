@@ -1,0 +1,132 @@
+ .custom-link {
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .custom-link:hover {
+    color: white;
+  }
+  
+  .custom-link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .custom-link:hover::after {
+    width: 50%;
+  }
+  
+  .custom-link.active::after {
+    width: 50%;
+    height: 2px;
+    background-color: white;
+  }
+  
+  .dropdown-item.active {
+    font-weight: 500;
+    background-color: #dbffd5;
+    color: black;
+  }
+  
+  .dropdown-item:hover{
+    background-color: #dbffd5;
+  }
+  
+  .custom-link2{
+    text-decoration: none;
+  }
+  
+  .imlogo{
+    height: 10px !important;
+  }
+  
+  .page-search-highlight {
+    background-color: #ffeb3b;
+    padding: 2px 0;
+  }
+  
+  .page-search-highlight-active {
+    background-color: #ffa000;
+  }
+  
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-navigation {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .search-count {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .search-nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    color: #666;
+  }
+  
+  .search-nav-button:hover {
+    color: #000;
+  }
+  
+  .search-nav-button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .menubar-container {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .desktop-menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, var(--navgradientfrom), var(--navgradientto));
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000000 !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mobile Menu */
+  .mobile-menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, var(--navgradientfrom), var(--navgradientto));
+    height: 60px;
+    padding: 10px 20px;
+    position: relative;
+  }
+  

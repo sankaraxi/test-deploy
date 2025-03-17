@@ -1,0 +1,39 @@
+.contactpart{
+    background-image: url("/careers.png");
+   background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactpart h1{
+    font-family: var(--heading-font);
+    font-family: 'Oswald', sans-serif;
+}
+.careershead{
+    color: var(--subhead2-color);
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px !important;
+    font-weight: 400 !important;
+   
+}
+
+.careerssubhead{
+    color: var(--subhead2-color);
+font-family: 'Oswald', sans-serif;
+font-size: 38px;
+
+}
+
+.emptxt{
+    font-family: 'Heebo', sans-serif;
+    font-size: 32px;
+}
+
+
+/* //careersdata */
+
+.careersdata p{
+font-size: 16px;
+font-family: 'Heebo', sans-serif;
+font-weight: 500;
+}
