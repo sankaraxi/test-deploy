@@ -1,14 +1,13 @@
-'use client';
+// import { useEffect } from 'react';
 
-import { useEffect } from 'react';
-import "./Founder.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import "./Founder.css";
 
 const OurFounder = () => {
-        useEffect(()=>{
-            window.scroll(0,0);
-          })
+        // useEffect(()=>{
+        //     window.scroll(0,0);
+        //   })
   return (
    <div className="container-fluid abtparts">
        
