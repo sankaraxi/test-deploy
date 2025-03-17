@@ -26,7 +26,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/OVIYA_FOUNDER.png",
+        url: "https://www.oviyamedsafe.com/LOGO.png",
         width: 1200,
         height: 630,
         alt: "Oviya MedSafe Logo",
