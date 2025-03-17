@@ -1,9 +1,9 @@
 // import { useEffect } from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaLinkedin } from "react-icons/fa";
 import "./Founder.css";
 import Image from 'next/image';
+import Link from "next/link";
 
 const OurFounder = () => {
         // useEffect(()=>{
@@ -20,9 +20,9 @@ const OurFounder = () => {
              <Image 
                src='/OVIYA_FOUNDER.png'
                alt="Founder" 
-               className="founderimg img-fluid ps-0 ps-md-5 ms-0 ms-md-5"
-                width={500}
-                height={500} 
+               className=" img-fluid ps-0 ps-md-5 ms-0 ms-md-5"
+                width={403}
+                height={403} 
                style={{ zIndex: 1000 }} 
              />
            </div>
@@ -35,14 +35,23 @@ const OurFounder = () => {
                MBBS, F. Diab., MBA, FPIPA (UK)<br />
                Managing Director & CEO,<br />
                Oviya MedSafe<br />
-               <a 
+               <Link 
                  href="https://www.linkedin.com/in/drjvvr/" 
-                 className="text-start text-decoration-none text-dark" 
+                 className="text-start text-decoration-none text-dark d-flex align-items-center" 
                  style={{ fontSize: "18px" }}
+                 
                >
-                 {/* <FontAwesomeIcon icon={faLinkedin} className="linkedicon pe-2"  style={{ fontSize: "16px" }} /> */}
-                 Get in touch
-               </a>
+                 {/* <FontAwesomeIcon icon={faLinkedin} className="linkedicon pe-2"   /> */}
+                 <div>
+                 <FaLinkedin className="linkedicon"/>
+                 </div>
+
+                 <div className="ps-1 pt-1">
+                    Get in touch
+                 </div>
+                 
+                 
+               </Link>
              </p>
              </div>
              </div>

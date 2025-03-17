@@ -1,12 +1,49 @@
-'use client';
-import React, { useEffect } from 'react';
+
+import React from 'react';
 
 import "./AboutFounder.css";
 // import { Helmet } from 'react-helmet-async';
+export const metadata = {
+  title: "Oviya MedSafe Board of Directors | Leaders in Drug Safety & Healthcare Innovation",
+  description:
+    "Get to know the Board of Directors at Oviya MedSafe, a team of seasoned experts in pharmacovigilance, healthcare, and technology. With decades of experience in drug safety, data security, and regulatory compliance, they provide strategic direction to advance global healthcare innovation.",
+  keywords: [
+    "Oviya MedSafe Board",
+    "Board of Directors",
+    "drug safety experts",
+    "pharmacovigilance leadership",
+    "healthcare innovation",
+    "regulatory compliance",
+    "medicinal product safety",
+    "strategic healthcare leadership",
+    "global pharmacovigilance",
+    "physician entrepreneurs",
+  ],
+  alternates: {
+    canonical: "https://www.oviyamedsafe.com/our-board",
+  },
+  openGraph: {
+    title: "Oviya MedSafe Board of Directors | Experts in Healthcare and Data Security",
+    description:
+      "Meet the leaders of Oviya MedSafe’s Board of Directors, specialists in pharmacovigilance, regulatory compliance, and global healthcare innovation.",
+    url: "https://www.oviyamedsafe.com/our-board",
+    type: "website",
+    images: [
+      {
+        url: "https://www.oviyamedsafe.com/mainlogo.png",
+        width: 1200,
+        height: 630,
+        alt: "Oviya MedSafe Logo",
+      },
+    ],
+  },
+};
+
+
 function page() {
-  useEffect(()=>{
-    window.scroll(0,0)
-  })
+  // useEffect(()=>{
+  //   window.scroll(0,0)
+  // })
   const boardMembers = [{
     name: 'Dr J Vijay Venkatraman',
     position: "Founder",
@@ -27,16 +64,7 @@ function page() {
 
   return (
     <div className='container-fluid p-0 m-0 founderpart'>
-      {/* <Helmet>
-                    <title>Oviya MedSafe Board of Directors | Leaders in Drug Safety & Healthcare Innovation</title>
-                    <meta name="description" content="Get to know the Board of Directors at Oviya MedSafe, a team of seasoned experts in pharmacovigilance, healthcare, and technology. With decades of experience in drug safety, data security, and regulatory compliance, they provide strategic direction to advance global healthcare innovation" />
-                    <meta name="keywords" content="Oviya MedSafe Board, Board of Directors, drug safety experts, pharmacovigilance leadership, healthcare innovation, regulatory compliance, medicinal product safety, strategic healthcare leadership, global pharmacovigilance, physician entrepreneurs" />
-                    <link rel="canonical" href="https://oviyamedsafe.com/our-board " /> 
-                    <meta property="og:title" content="Oviya Medsafe Board of Directors | Experts in Healthcare and Data Security" />
-                    <meta property="og:image" content="https://www.oviyamedsafe.com/mainlogo.png" />
-                    <meta property="og:url" content="https://www.oviyamedsafe.com/" />
-                    <meta property="og:type" content="website" />
-                  </Helmet> */}
+    
       <h1 className='text-center subhead2 pb-3 pt-4'>Our Board</h1>
       <div className='boardpart'>
         <div className='container'>

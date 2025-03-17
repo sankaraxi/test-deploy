@@ -1,0 +1,36 @@
+
+.blogicon{
+
+    font-size:"22px";
+    vertical-align: "middle";
+    color:"#64B556"
+}
+
+.insightspart{
+    margin: 50px;
+}
+
+.readbtn{
+   color: var(--blog-linkcolor); 
+   
+}
+.readbtn:hover{
+    text-decoration: underline;
+}
+.blogtitle{
+    font-size: 20px !important;
+}
+.colourcard{
+    border: 1px solid rgb(247, 245, 245);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+}
+
+@media (max-width:768px){
+    .insightspart{
+        margin: 0px;
+    }   
+}
+
+
+  

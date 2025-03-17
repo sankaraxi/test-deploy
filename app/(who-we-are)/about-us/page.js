@@ -1,25 +1,46 @@
-'use client';
 
-import React, { useEffect } from 'react'
+
+import React from 'react'
 
 import './AboutFounder.css';
 
+export const metadata = {
+  title: "About Oviya MedSafe | Pioneers in Global Pharmacovigilance Consulting",
+  description:
+    "Discover Oviya MedSafe’s mission to lead global pharmacovigilance consulting. With expertise in drug safety, regulatory compliance, and strategic client partnerships, we are committed to ensuring high-quality safety solutions.",
+  keywords: [
+    "Oviya MedSafe",
+    "about Oviya MedSafe",
+    "pharmacovigilance consulting",
+    "drug safety services",
+    "regulatory compliance",
+    "global drug safety",
+    "patient safety",
+    "pharmacovigilance experts",
+    "pharmaceutical consulting",
+  ],
+  alternates: {
+    canonical: "https://oviyamedsafe.com/about-us",
+  },
+  openGraph: {
+    title: "About Oviya MedSafe | Leaders in Pharmacovigilance Consulting",
+    url: "https://www.oviyamedsafe.com/",
+    type: "website",
+    images: [
+      {
+        url: "https://www.oviyamedsafe.com/research.png",
+        width: 1200,
+        height: 630,
+        alt: "Oviya MedSafe Logo",
+      },
+    ],
+  },
+};
+
+
 function page() {
-  useEffect(()=>{
-    window.scroll(0,0);
-  },[])
   return (
   <>
-                  {/* <Helmet>
-                    <title>About Oviya MedSafe | Pioneers in Global Pharmacovigilance Consulting</title>
-                    <meta name="description" content="Discover Oviya MedSafe’s mission to lead global pharmacovigilance consulting. With expertise in drug safety, regulatory compliance, and strategic client partnerships, we are committed to ensuring high-quality safety solutions." />
-                    <meta name="keywords" content="Oviya MedSafe, about Oviya MedSafe, pharmacovigilance consulting, drug safety services, regulatory compliance, global drug safety, patient safety, pharmacovigilance experts, pharmaceutical consulting" />
-                    <link rel="canonical" href="https://oviyamedsafe.com/about-us" />
-                    <meta property="og:title" content="About Oviya MedSafe | Leaders in Pharmacovigilance Consulting" />
-                    <meta property="og:image" content="https://www.oviyamedsafe.com/mainlogo.png" />
-                    <meta property="og:url" content="https://www.oviyamedsafe.com/" />
-                    <meta property="og:type" content="website" />
-                  </Helmet> */}
     <div className='container-fluid abtparts'>
         <div className='row mx-1 mx-md-3 mx-lg-5 py-4'>
         <h1 className='subhead2 text-center py-2'>About Us</h1>

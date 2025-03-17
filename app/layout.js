@@ -1,8 +1,11 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Contactpart from "./_components/ContactPart/ContactPart";
 import Menubar from "./_components/Menubar/Menubar";
+import Footer from "./_components/Footer/Footer";
 // import Menubar from "./_components/Menubar/Menubar";
 
 const geistSans = Geist({
@@ -27,6 +30,7 @@ export default function RootLayout({ children }) {
         <Contactpart />
         <Menubar />
         {children}
+        <Footer />
       </body>
     </html>
   );

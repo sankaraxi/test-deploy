@@ -1,33 +1,35 @@
 import OurFounder from '@/app/_components/OurFounder/OurFounder';
-import DynamicServices from '@/app/_components/Services/DynamicServices';
 import React from 'react'
+
 export const metadata = {
-  title: "Drug Safety Services | End-to-End Pharmacovigilance & Regulatory Compliance",
+  title: "Dr J Vijay Venkatraman | Founder & CEO of Oviya MedSafe | Global Pharmacovigilance Leader",
   description:
-    "Oviya MedSafe provides comprehensive drug safety services, including case processing, risk management, aggregate reporting, and post-marketing surveillance, ensuring regulatory compliance and patient safety.",
+    "Dr J Vijay Venkatraman, Founder & CEO of Oviya MedSafe, is a Diabetologist, Drug Safety Physician, and Pharmacovigilance expert with 25 years of experience. A Fellow of PIPA, UK, he has been instrumental in helping global pharma and biotech companies meet compliance requirements. A sought-after speaker, author, and thought leader, Dr Vijay actively contributes to the advancement of drug safety worldwide.",
   keywords: [
-    "drug safety services",
-    "pharmacovigilance solutions",
-    "case processing",
-    "aggregate reporting",
-    "post-marketing surveillance",
-    "clinical safety",
-    "pharmaceutical risk management",
+    "Dr J Vijay Venkatraman",
+    "Oviya MedSafe Founder",
+    "pharmacovigilance expert",
+    "drug safety leader",
+    "global pharmacovigilance",
+    "PIPA Fellow",
     "regulatory compliance",
-    "Oviya MedSafe",
+    "pharmaceutical consulting",
+    "pharmacovigilance thought leader",
+    "medical entrepreneur",
+    "keynote speaker in drug safety",
   ],
   alternates: {
-    canonical: "https://oviyamedsafe.com/drug-safety-services",
+    canonical: "https://www.oviyamedsafe.com/our-founder",
   },
   openGraph: {
-    title: "Drug Safety Services | Comprehensive Solutions for Regulatory Compliance",
+    title: "Founder of Oviya MedSafe | Visionary Leadership in Healthcare Safety",
     description:
-      "Oviya MedSafe offers expert drug safety solutions, including case processing, risk management, and regulatory compliance.",
-    url: "https://www.oviyamedsafe.com/drug-safety-services",
+      "Dr J Vijay Venkatraman, a globally recognized pharmacovigilance leader, is committed to advancing drug safety and regulatory compliance worldwide.",
+    url: "https://www.oviyamedsafe.com/our-founder",
     type: "website",
     images: [
       {
-        url: "https://oviyamedsafe.com/OVIYA_FOUNDER.png",
+        url: "https://www.oviyamedsafe.com/OVIYA_FOUNDER.png",
         width: 1200,
         height: 630,
         alt: "Oviya MedSafe Logo",
@@ -36,10 +38,11 @@ export const metadata = {
   },
 };
 
+
 const page = () => {
   return (
     <div>
-      <DynamicServices index={0} />
+      <OurFounder />
     </div>
   )
 }

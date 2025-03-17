@@ -1,0 +1,56 @@
+.blogbannerhead{
+    font-size: 18px !important;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 800 !important;
+    text-transform: capitalize;
+}
+
+
+
+.card-hover-content{
+    background-color: #03d3bd;
+    height: 100%;
+    font-family: 'Heebo', sans-serif;
+    min-height: 450px;
+    line-height: 1.6;
+    font-style: oblique !important;
+    
+}
+
+.arw{
+    font-size: 23px;
+}
+.servicecard {
+    position: relative;
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .circle-container {
+    position: absolute;
+    bottom: -13px;
+    right: -13px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#1ABE6F,#07BBD4); /* Blue circle */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .circle-container:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .arrow-icon {
+    color: white;
+    font-size: 20px;
+  }
+  
+
+

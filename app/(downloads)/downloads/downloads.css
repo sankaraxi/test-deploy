@@ -1,0 +1,77 @@
+.custom-card {
+    background-color: #DFFDF5;
+    border: none;
+    padding: 5px;
+    font-family: 'Heebo', sans-serif;
+  }
+  
+  .card-margin{
+    margin: 0 100px;
+  }
+  
+  .custom-btn{
+    background:linear-gradient(to right ,#64B556,#0D868F);
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    padding: 10px;
+  }
+  
+  .width-heading{
+    width:700px;
+  }
+  .btn-width{
+    width: 130px;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .accordion-content.open {
+    max-height: 300px; /* Adjust this value based on your content's height */
+  }
+  
+  .custom-btn {
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .imgwidth{
+    width: 25px;
+  }
+  
+  @media (max-width: 992px) {
+    .card-margin {
+        margin: 0;
+    }
+  }
+  
+  @media (max-width: 769px) {
+    .custom-card {
+      padding: 0;
+    }
+  
+    .width-heading{
+      width: 55%;
+  }
+  
+    .card-title {
+        font-size: 17px;
+    }
+    .card-margin {
+        margin: 0 px;
+    }
+  
+    .text-pad{
+      padding-right: 10px;
+    }
+  
+    .btn-width{
+        width: 100%;
+    }
+  }

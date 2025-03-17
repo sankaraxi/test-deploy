@@ -1,0 +1,70 @@
+.site-list {
+    list-style: none;
+    /* padding-left: 20px; Space for bullet image */
+}
+
+.site-list li {
+    padding-left: 35px; /* Space for the image */
+    position: relative;
+}
+
+.site-list li {
+    padding-top: 10px;
+    align-items: center;
+    font-size: 22px;   
+}
+.sitemaptext{
+    color: var(--gradientfrom);
+}
+/* Remove hyperlink styles */
+.site-list li a {
+    text-decoration: none;
+    color: inherit; /* Keeps the text color same as parent */
+    color: #0D868F;
+    font-weight: 500;
+    /* pointer-events: none; Disables clicking */
+}
+
+.site-list li a:hover {
+    color: #66CC66;
+}
+
+.site-list li::before {
+    content: "";
+    background-image: url('/disc.png'); /* Replace with actual image URL */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 28px; /* Adjust for your image */
+    height: 28px;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.sub-menu {
+    padding-left: 30px;
+}
+
+.sitemap-header {
+    /* background-image: url('../assets/sitemap-bgf.jpg');  */
+    background: linear-gradient(45deg,white,#17BE81);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    color: white;
+}
+
+.site-home{
+    text-decoration: none;
+    color: inherit;
+}
+
+.site-home:hover{
+    color: #66CC66;
+}
+
+.stcontainer{
+   background-image: url("/Desktopbg.jpg");
+   
+}

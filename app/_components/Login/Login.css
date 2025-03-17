@@ -1,0 +1,58 @@
+.formbg{
+    /* background: linear-gradient(45deg,#1ABE6F,#07BBD4); */
+    background: linear-gradient(135deg, #0D868F, #042629);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+    
+    color: white;
+    margin: 10px;
+}
+
+.bloglogin{
+    background-color: var(--blog-bgcolor);
+    color: #0D868F;
+    font-weight: 400;
+}
+
+
+.bloglogin:hover{
+    background-color: var(--blog-bgcolor);
+    color: #0D868F;
+}
+
+.loginhead{
+    color: #063539;
+    font-size: 32px;
+}
+
+.logintext{
+    font-size: 40px;
+
+}
+.logbtn{
+  color: var(--subhead2-color);
+    background-color: var(--blog-bgcolor);
+}
+
+.logbtn:hover{
+  color: var(--subhead2-color);
+    background-color: var(--blog-bgcolor);
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 767px) {
+    .formbg {
+      width: 100% !important; /* Full width for smaller screens */
+      padding: 20px;
+    }
+    .logintext, .loginhead {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Add styles for large screens */
+  @media (min-width: 768px) {
+    .formbg {
+      width: 400px; /* Maintain fixed width for larger screens */
+    }
+  }
+  

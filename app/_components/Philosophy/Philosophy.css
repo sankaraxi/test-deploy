@@ -1,0 +1,170 @@
+/*  */
+.philosophybg {
+  background-image: url("/philoDesk.png");
+  height:720px;
+  /* background-color: #fbfcfc; */
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: top; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+}
+
+.heading {
+  font-family: 'Oswald', sans-serif;
+  color: #0D868F;
+}
+
+.container-pad{
+  padding-top: 100px;
+}
+
+.card-container-pad{
+  padding-top: 70px;
+}
+/* Card Container */
+.card-container {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  color: #0D868F;
+  width: 100%;
+  max-width: 380px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+/* Circle Animation */
+.circle-animation {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #003C4E;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.card-container:hover .circle-animation {
+  width: 700px;
+  height: 700px;
+  opacity: 1;
+}
+
+.heading-text{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: #0D868F;
+}
+
+.image-container1{
+  height: 100px;
+}
+
+/* Image Container */
+.image-container {
+  position: relative;
+  z-index: 10;
+}
+
+.image-container img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Title Container */
+.title-container {
+  position: relative;
+  z-index: 10;
+  height: 100px;
+  padding-top: 12px;
+}
+
+.title-container h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  transition: all 0.5s ease;
+}
+
+.card-container:hover .title-container h1 {
+  color: white;
+}
+
+/* Description Container */
+.description-container {
+  position: relative;
+  z-index: 10;
+  height: 200px;
+}
+
+.description-container p {
+  font-family: 'Heebo', sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  color: #034C53;
+  transition: all 0.5s ease;
+  line-height: 25px;
+}
+ul {
+  padding-left: 0;
+}
+
+.description-container li {
+  font-family: 'Heebo', sans-serif;
+  /* font-size: 15px; */
+  text-align: left;
+  color: #034C53;
+  transition: all 0.5s ease;
+  line-height: 25px;
+
+}
+.card-container:hover .description-container li {
+  color: white;
+}
+.card-container:hover .description-container p {
+  color: white;
+}
+
+  @media (max-width: 992px) {
+    .philosophybg {
+        background-image: url("/philoTab.png");
+        height: 120vh !important;
+        background-size: cover; /* Same for tablets */
+        background-position: center;
+    }
+    .card-container {
+      width: 500px;
+      height: 380px;
+    }
+    .description-container {
+      position: relative;
+      z-index: 10;
+      height: 200px;
+    }
+    .container-pad{
+      padding-top: 30px;
+    }
+  }
+  
+  @media (max-width: 769px) {
+    .philosophybg {
+        background-image: url("/philoPhone.png");
+        height: 200vh !important;
+        background-size: cover;/* Same for phones */
+        background-position: top;
+        /* height: max-content; */
+        
+    }
+    .card-container {
+      width: 340px;
+      height: 390px;
+    }
+    .container-pad{
+      padding-top: 60px;
+    }
+  }
+  
