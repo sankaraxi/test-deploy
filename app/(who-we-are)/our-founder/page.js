@@ -1,31 +1,28 @@
-
 import OurFounder from '@/app/_components/OurFounder/OurFounder';
 
 export const metadata = {
-  title: "Dr J Vijay Venkatraman | Founder & CEO of Oviya MedSafe | Global Pharmacovigilance Leader",
+  title: "Drug Safety Services | End-to-End Pharmacovigilance & Regulatory Compliance",
   description:
-    "Dr J Vijay Venkatraman, Founder & CEO of Oviya MedSafe, is a Diabetologist, Drug Safety Physician, and Pharmacovigilance expert with 25 years of experience. A Fellow of PIPA, UK, he has been instrumental in helping global pharma and biotech companies meet compliance requirements. A sought-after speaker, author, and thought leader, Dr Vijay actively contributes to the advancement of drug safety worldwide.",
+    "Oviya MedSafe provides comprehensive drug safety services, including case processing, risk management, aggregate reporting, and post-marketing surveillance, ensuring regulatory compliance and patient safety.",
   keywords: [
-    "Dr J Vijay Venkatraman",
-    "Oviya MedSafe Founder",
-    "pharmacovigilance expert",
-    "drug safety leader",
-    "global pharmacovigilance",
-    "PIPA Fellow",
+    "drug safety services",
+    "pharmacovigilance solutions",
+    "case processing",
+    "aggregate reporting",
+    "post-marketing surveillance",
+    "clinical safety",
+    "pharmaceutical risk management",
     "regulatory compliance",
-    "pharmaceutical consulting",
-    "pharmacovigilance thought leader",
-    "medical entrepreneur",
-    "keynote speaker in drug safety",
+    "Oviya MedSafe",
   ],
   alternates: {
-    canonical: "https://www.oviyamedsafe.com/our-founder",
+    canonical: "https://oviyamedsafe.com/drug-safety-services",
   },
   openGraph: {
-    title: "Founder of Oviya MedSafe | Visionary Leadership in Healthcare Safety",
+    title: "Drug Safety Services | Comprehensive Solutions for Regulatory Compliance",
     description:
-      "Dr J Vijay Venkatraman, a globally recognized pharmacovigilance leader, is committed to advancing drug safety and regulatory compliance worldwide.",
-    url: "https://www.oviyamedsafe.com/our-founder",
+      "Oviya MedSafe offers expert drug safety solutions, including case processing, risk management, and regulatory compliance.",
+    url: "https://www.oviyamedsafe.com/drug-safety-services",
     type: "website",
     images: [
       {
