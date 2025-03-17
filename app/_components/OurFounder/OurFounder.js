@@ -3,6 +3,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import "./Founder.css";
+import Image from 'next/image';
 
 const OurFounder = () => {
         // useEffect(()=>{
@@ -16,10 +17,12 @@ const OurFounder = () => {
          <div className="row align-items-center mx-1 mx-lg-5">
            {/* Image Column */}
            <div className="col-sm-12 col-md-6 d-flex justify-content-center mb-3 mb-md-0">
-             <img 
-               src='./OVIYA_FOUNDER.png'
+             <Image 
+               src='/OVIYA_FOUNDER.png'
                alt="Founder" 
-               className="founderimg img-fluid ps-0 ps-md-5 ms-0 ms-md-5" 
+               className="founderimg img-fluid ps-0 ps-md-5 ms-0 ms-md-5"
+                width={500}
+                height={500} 
                style={{ zIndex: 1000 }} 
              />
            </div>
@@ -37,7 +40,7 @@ const OurFounder = () => {
                  className="text-start text-decoration-none text-dark" 
                  style={{ fontSize: "18px" }}
                >
-                 <FontAwesomeIcon icon={faLinkedin} className="linkedicon pe-2"  style={{ fontSize: "16px" }} />
+                 {/* <FontAwesomeIcon icon={faLinkedin} className="linkedicon pe-2"  style={{ fontSize: "16px" }} /> */}
                  Get in touch
                </a>
              </p>
