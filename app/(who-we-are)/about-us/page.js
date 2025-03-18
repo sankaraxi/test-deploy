@@ -20,7 +20,7 @@ export const metadata = {
     "pharmaceutical consulting",
   ],
   alternates: {
-    canonical: "https://oviyamedsafe.com/about-us",
+    canonical: "https://medsafe-test-deploy.vercel.app/about-us",
   },
   openGraph: {
     title: "About Oviya MedSafe | Leaders in Pharmacovigilance Consulting",

@@ -1,0 +1,81 @@
+.lnkfnt{
+    color: black !important; 
+    text-decoration: none ;
+    padding: 5px 10px; 
+    font-weight: 500 ;
+    font-size:20px ;                                                                                                                                       ;
+}
+
+.crdimg{
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.lnkfnt:hover{
+    color: #fff !important; 
+    text-decoration: none ;
+    background-color: #0D868F ;
+    border-radius:5px; 
+    padding: 5px 10px;                                                                                                                                       ;
+}
+
+.addbtn{
+    background-color: var(--subhead2-color);
+    color: white;
+    font-weight: 500;
+}
+.addbtn:hover{
+    background-color: var(--subhead2-color);
+    color: white;
+}
+
+.logoutbtn{
+    background-color: #FFFBDB;
+    color: #0D868F;
+    border: 1px solid #0D868F;
+    font-weight: 500;
+   
+   
+}
+.logoutbtn:hover{
+    background-color: #FFFBDB;
+    color: #0D868F;
+    border: 1px solid #0D868F; 
+}
+
+.blogbtn{
+    background-color: #FFFBDB;
+    color: #0D868F;
+    border: 1px solid #0D868F;
+    font-size: 14px;   
+}
+.publishbtn{
+    background-color: #0D868F;
+    color: #fff;
+}
+.publishbtn:hover{
+    background-color: #0D868F;
+    color: #fff;
+}
+.blogbtn:hover{
+    background-color: #FFFBDB;
+    color: #0D868F;
+    border: 1px solid #0D868F;
+    font-size: 14px;   
+}
+.textlnk{
+    color: #0D868F;  
+}
+.delbtn{
+    background-color: transparent;
+}
+.blogtitle{
+    font-size: 16px;
+}
+
+.blogsubbtn{
+    background-color: #0D868F;
+    color: #fff;
+    padding: 4px 20px !important;
+    margin: 10px 0px;
+}

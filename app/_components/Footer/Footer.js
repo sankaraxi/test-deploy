@@ -20,7 +20,7 @@ function Footer() {
     }
 
     try {
-      const response = await fetch("https://oviyamedsafe.com/api/subscribe", {
+      const response = await fetch("https://medsafe-test-deploy.vercel.app/api/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

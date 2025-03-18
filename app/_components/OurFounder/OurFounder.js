@@ -31,7 +31,7 @@ const OurFounder = () => {
            <div className="col-sm-12 col-md-6 d-flex flex-column justify-content-center text-center text-md-start">
              <div className='fparts'>
              <h1 className="foundername ">Dr J Vijay Venkatraman</h1>
-             <p className="pt-2 founderqualification ">
+             <div className="pt-2 founderqualification ">
                MBBS, F. Diab., MBA, FPIPA (UK)<br />
                Managing Director & CEO,<br />
                Oviya MedSafe<br />
@@ -52,7 +52,7 @@ const OurFounder = () => {
                  
                  
                </Link>
-             </p>
+             </div>
              </div>
              </div>
              <div className='row text-justify founderparas py-3 textjust'>

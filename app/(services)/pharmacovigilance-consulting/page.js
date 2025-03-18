@@ -17,7 +17,7 @@ export const metadata = {
     "Oviya MedSafe",
   ],
   alternates: {
-    canonical: "https://oviyamedsafe.com/pharmacovigilance-consulting",
+    canonical: "https://medsafe-test-deploy.vercel.app/pharmacovigilance-consulting",
   },
   openGraph: {
     title: "Pharmacovigilance Consulting | Proactive Drug Safety & Compliance Strategies",
@@ -27,7 +27,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.oviyamedsafe.com/LOGO.png",
+        url: "https://www.oviyamedsafe.com/Service02.png",
         width: 1200,
         height: 630,
         alt: "Oviya MedSafe Logo",

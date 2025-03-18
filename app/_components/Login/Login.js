@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
 import Link from "next/link";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -48,7 +47,7 @@ function Login() {
       return;
     }                                                                                                                                                                                                                           
 
-    axios.post('https://oviyamedsafe.com/api/auth/login', {
+    axios.post('https://medsafe-test-deploy.vercel.app/api/auth/login', {
       email,
       password,
     }).then(response => {

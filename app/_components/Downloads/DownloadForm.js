@@ -106,7 +106,7 @@ const DownloadForm = ({fileId}) => {
           phone_number: formData.phone_number.toString(), // Ensure it's a string
         };
 
-        const response = await axios.post('https://oviyamedsafe.com/api/submit-form', formDataToSend);
+        const response = await axios.post('https://medsafe-test-deploy.vercel.app/api/submit-form', formDataToSend);
         if (response.status === 200) {
           toast.success('Form submitted successfully!');
           if (fileId === "file1") {
@@ -249,7 +249,8 @@ const DownloadForm = ({fileId}) => {
           <button type="submit" className="custom-btn btn btn-primary btn-width" disabled={isVerified !== true}>
           Download PDF
           </button>
-        </div> 
+        </div>
+        <ToastContainer /> 
     </form>
   );
 };

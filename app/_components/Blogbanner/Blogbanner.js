@@ -12,7 +12,7 @@ function Blogbanner() {
   useEffect(() => {
   const fetchCourses = async () => {
       try {
-        const response = await fetch("https://oviyamedsafe.com/api/news");
+        const response = await fetch("https://medsafe-test-deploy.vercel.app/api/news");
         if (response.ok) {
           const data = await response.json();
           const sortedBlogs = data
@@ -43,7 +43,7 @@ function Blogbanner() {
             <div key={blog.id} className="col-sm-12 col-lg-4 mb-2">
               <div className="card colourcard mt-3 h-100 rounded-3">
                 <img
-                  src={`https://oviyamedsafe.com/api/uploads/${blog.image}`} 
+                  src={`https://medsafe-test-deploy.vercel.app/api/uploads/${blog.image}`} 
                   title={blog.news_title}
                   alt={blog.news_title} 
                   className="card-img-top"

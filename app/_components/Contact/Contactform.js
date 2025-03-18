@@ -84,7 +84,7 @@ function Contactform() {
   
       if (!hasErrors) {
         try {
-          const response = await axios.post('https://oviyamedsafe.com/api/submit-form', formData);
+          const response = await axios.post('https://medsafe-test-deploy.vercel.app/api/submit-form', formData);
           if (response.status === 200) {
             toast.success('Message sent successfully!');
             setFormData({

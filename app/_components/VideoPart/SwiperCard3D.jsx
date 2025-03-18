@@ -14,7 +14,7 @@ export default function SwiperCard3D() {
 
   const fetchVideos = async () => {
     try {
-      const response = await fetch("https://oviyamedsafe.com/api/videos");
+      const response = await fetch("https://medsafe-test-deploy.vercel.app/api/videos");
       const finaldata = await response.json();
       const filteredVideos = finaldata.videos.filter(video => video.publish === 1);
       setVideos(filteredVideos.reverse()); // Display latest videos first
